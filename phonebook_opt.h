@@ -2,7 +2,7 @@
 #define _PHONEBOOK_H
 
 #define MAX_LAST_NAME_SIZE 16
-
+#define TABLE_SIZE 42737
 #define OPT 1
 
 typedef struct __ENTRY_DETAIL {

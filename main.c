@@ -7,6 +7,9 @@
 #include IMPL
 
 #define DICT_FILE "./dictionary/words.txt"
+#define TABLE_SIZE 42737
+
+entry *hashTable[TABLE_SIZE];
 
 static double diff_in_second(struct timespec t1, struct timespec t2)
 {
